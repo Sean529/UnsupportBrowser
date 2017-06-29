@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>当前浏览器不被支持</title>
+  <!--IE9及以上执行-->
+  <!--[if lte IE 9]>
+        <script type="text/javascript">
+            var unsupport = true;
+        </script>
+    <![endif]-->
+  <script type="text/javascript">
+    // 当前浏览器高于IE8
+    if (typeof unsupport == "undefined") {
+      // location.href = "http://www.baidu.com"; // 跳转到指定页面
+    }
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
