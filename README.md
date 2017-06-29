@@ -1,7 +1,7 @@
 # unsupport-browser
 
 > Display when browser does not support.
-## 页面截图 ##
+## 页面预览 ##
 
 ![Image text](https://raw.githubusercontent.com/XieShangZheng/img-folder/master/ub.png)
 
